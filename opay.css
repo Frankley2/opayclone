@@ -1,0 +1,225 @@
+.profile{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    position: fixed;
+    height: 100px;
+    background-color: white;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    margin-top: 0px;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+}
+.top h1{
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-left: 6px;
+}
+.acct{
+    height: 220px;
+    width: 400px;
+    color: white;
+    margin-top: 120px;
+    border-radius: 15px;
+    background-color: #50c878;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 10px;
+    align-items: center;
+    font-size: 1.1rem;
+}
+.eye{
+    height: 20px;
+    width: 20px;
+    color: white;
+    font-weight: bolder;
+}
+.amt{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 22px;
+    margin-top: -20px;
+}
+.amt h2{
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: -8px;
+}
+.amt1{
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-left: 22px;
+    margin-top: -20px;
+}
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 15px;
+}
+.icon2{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+.sec center{
+    font-size: 1.1rem;
+}
+.ad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    height: 80px;
+    width: 400px;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center
+}
+.gift{
+    height: 30px;
+    width: 30px;
+    color: purple;
+}
+.one{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: #e5f6df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.two{
+    margin-left: 20px;
+}
+.act{
+    height: 220px;
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.act1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.act3{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #e5f6df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px; */
+}
+.icon3{
+    height: 30px;
+    width: 30px;
+    color: #50c878;
+}
+.act center{
+    font-size: 1rem;
+}
+.refer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.txt{
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.txt h5{
+    -webkit-transform: translateX(100%);
+    -webkit-animation: scroll-left 2s linear infinite;
+    animation: scroll-left 5s linear infinite;
+}
+@-webkit-keyframes scroll-left{
+    0%{
+        -webkit-transform: translateX(100%);
+    }
+    100%{
+        -webkit-transform: translateX(-100%);
+    }
+}
+@keyframes scroll-left{
+    0%{
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    100%{
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+.ann{
+    color:  #50c878;
+    height: 30px;
+    width: 30px;
+}
+.footer{
+    height: 100px;
+    max-width: 100%;
+    background-color: white;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+    position: fixed;
+}
+.icon5{
+    height: 30px;
+    width: 30px;
+}
+.red{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcoral;
+    color: white;
+    border-radius: 50px 50px 50px 0px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.red h6{
+    font-size: 0.65rem;
+    margin-top: 5px;
+}
